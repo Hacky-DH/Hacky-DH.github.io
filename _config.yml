@@ -1,1 +1,38 @@
+# For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink: /:year/:month/:day/:title
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+name: Hacky-DH
+title: Hacky Blog
+email: dhgacky@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Hacky, focus on distributed storage, machine leaning
+baseurl: "" # the subpath of your site, e.g. /blog
+url: https://hacky-dh.github.io # the base hostname & protocol for your site
+github: Hacky-DH
+
+# Tell Github to use the kramdown markdown interpreter
+# (see https://help.github.com/articles/migrating-your-pages-site-from-maruku)
+markdown: kramdown
+
+# all theme: jekyll-theme-primer, jekyll-theme-architect, jekyll-theme-cayman, 
+# jekyll-theme-dinky, jekyll-theme-hacker, jekyll-theme-leap-day, 
+# jekyll-theme-merlot, jekyll-theme-midnight, jekyll-theme-minimal, 
+# jekyll-theme-modernist, jekyll-theme-slate, jekyll-theme-tactile, 
+# jekyll-theme-time-machine
+#theme: minima
 theme: jekyll-theme-cayman
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%Y-%m-%d %H:%M"
+
+plugins:
+  - jekyll-feed
+
+exclude: ["README.md", "changelog.md", "LICENSE"]
