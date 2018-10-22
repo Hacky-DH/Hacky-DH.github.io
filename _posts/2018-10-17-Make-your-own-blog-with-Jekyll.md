@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "Make your own blog with Jekyll"
 date:   2018-10-17 17:00:54 +0800
 categories: jekyll
@@ -34,12 +34,15 @@ See [Simple site](https://kbroman.org/simple_site/) and its github [simple_site]
 6. Use bundle to manage jekyll
     ```
     gem install bundler
-
-    #build and run
+    ```
+    build and run (in Github Pages directory), Gemfile is required.
+    ```
+    bundle install
     bundle exec jekyll serve
     ```
 
 ### refs
+- [Github Pages customization](https://help.github.com/categories/customizing-github-pages/)
 - [jekyll-docs](https://jekyllrb.com/docs/home)
 - [jekyll-github](https://github.com/jekyll/jekyll)
 - [jekyll theme](https://jekyllrb.com/docs/themes/)
