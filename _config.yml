@@ -6,11 +6,11 @@ permalink: /:year/:month/:day/:title
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-name: Hacky-DH
-title: Hacky Blog
+name: DHacky
+title: DHacky Blog
 email: dhgacky@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hacky, focus on distributed storage, machine leaning
+  DHacky, focus on distributed storage, machine leaning
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://hacky-dh.github.io # the base hostname & protocol for your site
 github: Hacky-DH
@@ -19,10 +19,10 @@ github: Hacky-DH
 # (see https://help.github.com/articles/migrating-your-pages-site-from-maruku)
 markdown: kramdown
 
-# all theme: jekyll-theme-primer, jekyll-theme-architect, jekyll-theme-cayman, 
-# jekyll-theme-dinky, jekyll-theme-hacker, jekyll-theme-leap-day, 
-# jekyll-theme-merlot, jekyll-theme-midnight, jekyll-theme-minimal, 
-# jekyll-theme-modernist, jekyll-theme-slate, jekyll-theme-tactile, 
+# all theme: jekyll-theme-primer, jekyll-theme-architect, jekyll-theme-cayman,
+# jekyll-theme-dinky, jekyll-theme-hacker, jekyll-theme-leap-day,
+# jekyll-theme-merlot, jekyll-theme-midnight, jekyll-theme-minimal,
+# jekyll-theme-modernist, jekyll-theme-slate, jekyll-theme-tactile,
 # jekyll-theme-time-machine
 #theme: minima
 theme: jekyll-theme-cayman
