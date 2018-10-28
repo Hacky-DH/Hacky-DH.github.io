@@ -3,7 +3,7 @@ layout: post
 title:  "Make your own blog with Jekyll"
 date:   2018-10-17 17:00:54 +0800
 categories: jekyll
-tags: jekyll GitHub-Pages
+tags: jekyll github-pages
 ---
 ## Overview
 [Jekyll](https://jekyllrb.com/) convert [Markdown](https://daringfireball.net/projects/markdown/), [Liquid](https://github.com/Shopify/liquid/wiki), also HTML&CSS into static blogs that easily hosting with [GitHub Pages](https://pages.github.com/).
@@ -30,6 +30,7 @@ All blog pages live in a directory called `_posts`. They use the post layout. Al
 
 `index.md` is blog index page, `about.md` is about-me page.
 
+See [The whole Jekyll Directory Structure](https://jekyllrb.com/docs/structure/).
 
 ### Test Blog locally
 1. [Intall ruby](https://www.ruby-lang.org/en/installation/), or use [RubyInstaller](https://rubyinstaller.org/) in Windows.
@@ -62,9 +63,10 @@ All blog pages live in a directory called `_posts`. They use the post layout. Al
     ```
 
 ### refs
+- [Step-by-step beginners guide using GitHub and Jekyll](http://jmcglone.com/guides/github-pages/)
 - [Github Pages customization](https://help.github.com/categories/customizing-github-pages/)
 - [jekyll-docs](https://jekyllrb.com/docs/home)
 - [jekyll-github](https://github.com/jekyll/jekyll)
 - [jekyll theme](https://jekyllrb.com/docs/themes/)
 - [pages theme](https://github.com/pages-themes)
-
+- [Jekyll Tags](http://longqian.me/2017/02/09/github-jekyll-tag/)
